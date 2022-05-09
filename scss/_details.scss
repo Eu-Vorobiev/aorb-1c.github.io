@@ -1,0 +1,132 @@
+.details {
+  padding: 120px 0 40px;
+  background: #DAF8FF;
+
+  @media (max-width: 1024px) {
+    padding-top: 80px;
+  }
+
+  @media (max-width: 768px) {
+    padding-top: 50px;
+  }
+
+  @media (max-width: 475px) {
+    padding-top: 30px;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    max-width: 710px;
+    margin-bottom: 70px;
+
+    @media (max-width: 768px) {
+      margin-bottom: 50px;
+      text-align: center;
+    }
+  }
+
+  &__suptitle {
+    @media (max-width: 768px) {
+      text-align: center;
+    }
+  }
+
+  &__wrap {
+    max-width: 920px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+
+    @media (max-width: 1023px) {
+      max-width: 700px;
+    }
+
+    @media (max-width: 768px) {
+      max-width: 100%;
+    }
+  }
+
+  &__group {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: 768px) {
+      margin-bottom: 30px;
+    }
+
+    @media (max-width: 575px) {
+      margin-bottom: 20px;
+    }
+
+    &-title {
+      margin-bottom: 32px;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+
+      @media (max-width: 768px) {
+        font-size: 25px;
+      }
+
+      @media (max-width: 575px) {
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  &__inner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    @media (max-width: 768px) {
+      padding-left: 52px;
+    }
+  }
+
+  &__item {
+    margin-bottom: 32px;
+    width: 42%;
+    display: flex;
+
+    @media (max-width: 768px) {
+      width: 46%;
+    }
+
+    @media (max-width: 575px) {
+      margin-bottom: 16px;
+      width: 100%;
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 140%;
+      letter-spacing: 0.04em;
+      color: rgba(1, 51, 45, 0.8);
+      position: relative;
+
+      @media (max-width: 1023px) {
+        font-size: 16px;
+      }
+
+      &::before {
+        position: absolute;
+        top: -4px;
+        left: -52px;
+        content: '';
+        background-image: url("../img/check.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 32px;
+        height: 32px;
+      }
+    }
+  }
+}

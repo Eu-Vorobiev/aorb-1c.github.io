@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aorb|1C</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="fonts/Gilroy/stylesheet.css">
+  <link rel="stylesheet" href="css/hamburgers.min.css">
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container header__container">
+      <a class="header__logo" href="index.html">
+        <img class="header__logo-img" src="img/logo.svg" alt="Объединенный Резервный Банк">
+      </a>
+      <!-- /.header__logo -->
+      <nav class="nav header__nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="#benefits">Выгода</a>
+          </li>
+          <!-- /.nav__item -->
+          <li class="nav__item">
+            <a class="nav__link" href="#conditions">Условия</a>
+          </li>
+          <!-- /.nav__item -->
+          <li class="nav__item">
+            <a class="nav__link" href="#faq">FAQ</a>
+          </li>
+          <!-- /.nav__item -->
+          <li class="nav__item">
+            <a class="nav__link" href="tel:88007070907">8 800 707 09 07</a>
+          </li>
+          <!-- /.nav__item -->
+        </ul>
+        <!-- /.nav__list -->
+      </nav>
+      <!-- /.nav header__nav -->
+      <button class="hamburger hamburger--stand mobile-nav" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+      <!-- /.mobile-nav -->
+    </div>
+    <!-- /.container header__container -->
+  </header>
+  <!-- /.header -->
+
+  <main>
+    <section class="hero">
+      <div class="hero__bg">
+        <img class="hero__img" src="img/hero-bg.png" alt="Background">
+      </div>
+      <div class="container hero__container">
+        <div class="hero__content">
+          <p class="section__suptitle hero__suptitle">Ставка от <span class="hero--span">8%</span> годовых</p>
+          <!-- /.section__suptitle -->
+          <h1 class="section__title hero__title">Специальное кредитное предложение для партнеров 1С</h1>
+          <!-- /.section__title hero__title -->
+          <div class="hero__action">
+            <a class="btn hero__btn" href="#feedback">Оставить заявку</a>
+            <p class="hero__text">Рассмотрение заявки — до 5 дней!</p>
+          </div>
+          <!-- /.hero__action -->
+        </div>
+
+        <div class="hero__inner">
+          <div class="hero-feature__item">
+            <span>11%</span>
+            <p>11% годовых</p>
+          </div>
+          <div class="hero-feature__item">
+            <span>36 мес.</span>
+            <p>Cрок - до 36 мес</p>
+          </div>
+          <div class="hero-feature__item">
+            <span>10 млн</span>
+            <p>Сумма до 10 млн</p>
+          </div>
+          <div class="hero-feature__item">
+            <span>Онлайн</span>
+            <p>Онлайн – без визита в банк</p>
+          </div>
+          <div class="hero-feature__item">
+            <span>5 дней</span>
+            <p>5 дня оформление кредита</p>
+          </div>
+          <div class="hero-feature__item">
+            <span>Лимит</span>
+            <p>Возобновляемая кредитная линия с лимитом задолженности</p>
+          </div>
+        </div>
+      </div>
+      <!-- /.container hero__container -->
+
+    </section>
+    <!-- /.hero -->
+
+    <section class="benefits" id="benefits">
+      <div class="mask"></div>
+      <div class="container benefits__container">
+        <div class="benefits__content">
+          <p class="section__suptitle">Мы ценим ваше время</p>
+          <!-- /.section__suptitle -->
+          <h2 class="section__title benefits__title">Делаем специальное адресное предложение</h2>
+          <!-- /.section__title benefits__title -->
+          <div class="benefits__inner">
+            <div class="benefits__item">
+              <img src="img/layers.svg" alt="Layers">
+              <p>Вы партнер 1С</p>
+            </div>
+            <!-- /.benefits__item -->
+            <div class="benefits__item">
+              <img src="img/layout.svg" alt="Layout">
+              <p>Место регистрации – РФ</p>
+            </div>
+            <!-- /.benefits__item -->
+            <div class="benefits__item">
+              <img src="img/check-square.svg" alt="Check square">
+              <p>Срок с даты регистрации – от 12 месяцев</p>
+            </div>
+            <!-- /.benefits__item -->
+            <div class="benefits__item">
+              <img src="img/support.svg" alt="Support">
+              <p>Наличие кредитной истории - не обязательно</p>
+            </div>
+            <!-- /.benefits__item -->
+            <div class="benefits__item">
+              <img src="img/user-check.svg" alt="User">
+              <p>Регион ведения бизнеса – РФ</p>
+            </div>
+            <!-- /.benefits__item -->
+            <div class="benefits__item">
+              <img src="img/clock.svg" alt="Clock">
+              <p>Удовлетворительное финансовое состояние заемщика</p>
+            </div>
+            <!-- /.benefits__item -->
+          </div>
+        </div>
+        <!-- /.benefits__content -->
+        <form class="form benefits__form" action="mail.php" method="POST">
+          <h3 class="form__title section__title--md">Оставить заявку на кредит</h3>
+          <!-- /.form__title -->
+          <p class="form__subtitle">Оставьте свои контактные данные, чтобы мы вам перезвонили и ответили на все Ваши
+            вопросы</p>
+          <!-- /.form__subtitle -->
+          <label class="form__label" for="company">
+            <span>Название компании</span>
+            <input class="form__input" type="text" name="company" id="company" placeholder="Введите название компании"
+              title="Введите название компании" required data-validate-field="company">
+          </label>
+          <label class="form__label" for="inn">
+            <span>ИНН компании</span>
+            <input class="form__input" type="text" name="inn" id="inn" placeholder="Введите ИНН компании"
+              title="Введите ИНН компании" pattern="/^\d+$/" required data-validate-field="inn">
+          </label>
+          <label class="form__label" for="sum">
+            <span>Сумма кредита</span>
+            <input class="form__input" type="text" name="sum" id="sum" placeholder="30 000 000"
+              title="Введите сумму кредита" pattern="/^\d+$/" required data-validate-field="sum">
+            <span class="form--helper">руб</span>
+          </label>
+          <label class="form__label" for="phone">
+            <span>Номер телефона</span>
+            <input class="form__input" type="tel" name="phone" id="phone" placeholder="+7 908 937 43 34"
+              title="Введите номер телефона" required data-validate-field="tel">
+          </label>
+          <div class="form__label form__label--input">
+            <img src="img/shield-green.svg" alt="Shield-green">
+            <p>Ваши данные в полной безопасности и не будут передаваться третьим лицам</p>
+          </div>
+          <div class="g-recaptcha" data-sitekey="6LexSVccAAAAADFLhN0VPf_GYq4j3TBhLl3DgxJJ"></div>
+          <button class="btn form__btn benefits__btn" type="submit">Оcтавить заявку</button>
+          <a class="benefits__link" href="#">Политика конфиденциальности</a>
+        </form>
+        <!-- /.form -->
+      </div>
+      <!-- /.container benefits__container -->
+    </section>
+    <!-- /.benefits -->
+
+    <section class="details">
+      <div class="container details__container">
+        <p class="section__suptitle details__suptitle">Условия кредита</p>
+        <!-- /.section__suptitle -->
+        <h2 class="section__title details__title">Подробно об условиях кредитования</h2>
+        <!-- /.section__title details__title -->
+        <div class="details__wrap">
+          <div class="details__group">
+            <h2 class="section__title--md details__group-title">Условия кредита:</h2>
+            <div class="details__inner">
+              <div class="details__item">
+                <p>Cтавки от 11 до 13 % годовых</p>
+              </div>
+              <div class="details__item">
+                <p>Cрок: от 1 до 3 лет</p>
+              </div>
+              <div class="details__item">
+                <p>Подписание кредитных договоров - без визита в банк, возможно дистанционно</p>
+              </div>
+              <div class="details__item">
+                <p>Возобновляемая кредитная линия с лимитом задолженности до 10 млн</p>
+              </div>
+            </div>
+          </div>
+          <div class="details__group">
+            <h2 class="section__title--md details__group-title">Дополнительные условия кредита:</h2>
+            <div class="details__inner">
+              <div class="details__item">
+                <p>Другого залога - нет</p>
+              </div>
+              <div class="details__item">
+                <p>Поручительство бенефициаров юр/лица</p>
+              </div>
+              <div class="details__item">
+                <p>Требуется открытие р/с заёмщика, предусмотрена процедура дистанционного открытия</p>
+              </div>
+              <div class="details__item">
+                <p>Единовременная комиссия при подписании кредитного договора - 10 тыс.руб.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.details__wrap -->
+      </div>
+      <!-- /.container details__container -->
+    </section>
+    <!-- /.details -->
+
+    <section class="how-works" id="conditions">
+      <div class="mask"></div>
+      <div class="container how-works__container">
+        <div class="how-works__content">
+          <p class="section__suptitle">Условия</p>
+          <!-- /.section__suptitle -->
+          <h2 class="section__title how-works__title">Как мы действуем</h2>
+          <!-- /.section__title how-works__title -->
+        </div>
+        <div class="how-works__wrap">
+          <div class="how-works__item">
+            <span>01</span>
+            <div class="how-works__desc">
+              <h3 class="how-works__heading  section__title--md">Обращение</h3>
+              <!-- /.how-works__heading -->
+              <p class="how-works__text">Отправляем вам кредитное предложение</p>
+              <!-- /.how-works__text -->
+            </div>
+          </div>
+          <div class="how-works__item">
+            <span>02</span>
+            <div class="how-works__desc">
+              <h3 class="how-works__heading  section__title--md">Оформление</h3>
+              <!-- /.how-works__heading -->
+              <p class="how-works__text">Формируете заявку на кредит - онлайн</p>
+              <!-- /.how-works__text -->
+            </div>
+          </div>
+          <div class="how-works__item">
+            <span>03</span>
+            <div class="how-works__desc">
+              <h3 class="how-works__heading  section__title--md">Подготовка документов</h3>
+              <!-- /.how-works__heading -->
+              <p class="how-works__text">Готовим все документы к подписанию
+              </p>
+              <!-- /.how-works__text -->
+            </div>
+          </div>
+          <div class="how-works__item">
+            <span>04</span>
+            <div class="how-works__desc">
+              <h3 class="how-works__heading  section__title--md">Время</h3>
+              <!-- /.how-works__heading -->
+              <p class="how-works__text">Назначаете время для подписания
+              </p>
+              <!-- /.how-works__text -->
+            </div>
+          </div>
+          <!-- /.how-works__item -->
+          <div class="how-works__item">
+            <span>05</span>
+            <div class="how-works__desc">
+              <h3 class="how-works__heading section__title--md">Кредитный инспектор</h3>
+              <!-- /.how-works__heading -->
+              <p class="how-works__text">Отправляем к вам кредитного инспектора для оформления кредита у вас в офисе
+              </p>
+              <!-- /.how-works__text -->
+            </div>
+          </div>
+          <!-- /.how-works__item -->
+          <div class="how-works__item">
+            <span>06</span>
+            <div class="how-works__desc">
+              <h3 class="how-works__heading section__title--md">Подписание документов</h3>
+              <!-- /.how-works__heading -->
+              <p class="how-works__text">Подписываете пакет документов на кредит без визита в банк
+              </p>
+              <!-- /.how-works__text -->
+            </div>
+          </div>
+          <!-- /.how-works__item -->
+          <div class="how-works__item">
+            <span>07</span>
+            <div class="how-works__desc">
+              <h3 class="how-works__heading section__title--md">Открытие кредитного лемита</h3>
+              <!-- /.how-works__heading -->
+              <p class="how-works__text">Открываем вам кредитную линию с лимитом задолженности – самый удобный кредитный
+                инструмент для бизнеса
+              </p>
+              <!-- /.how-works__text -->
+            </div>
+          </div>
+          <!-- /.how-works__item -->
+          <div class="how-works__item">
+            <span>08</span>
+            <div class="how-works__desc">
+              <h3 class="how-works__heading section__title--md">Дистанционная работа</h3>
+              <!-- /.how-works__heading -->
+              <p class="how-works__text">Дистанционно пользуетесь удобным банковским сервисом
+              </p>
+              <!-- /.how-works__text -->
+            </div>
+          </div>
+          <!-- /.how-works__item -->
+        </div>
+        <!-- /.how-works__wrap -->
+      </div>
+      <!-- /.container how-works__container -->
+    </section>
+    <!-- /.how-works -->
+
+    <section class="reviews">
+      <div class="container reviews__container">
+        <img class="reviews__bg" src="img/quote.svg" alt="Quote">
+        <p class="section__suptitle section__suptitle--white">Рекомендации</p>
+        <!-- /.section__suptitle -->
+        <h2 class="section__title reviews__title section__title--white">Рекомендации наших клиентов
+          <div class="reviews__author-block">
+            <img src="img/client1.jpg" alt="Client 1">
+            <img src="img/client2.jpg" alt="Client 2">
+            <img src="img/client3.jpg" alt="Client 3">
+            <img src="img/client4.jpg" alt="Client 4">
+            <img src="img/client5.jpg" alt="Client 5">
+            <img src="img/client6.jpg" alt="Client 6">
+          </div>
+        </h2>
+        <!-- /.section__title reviews__title -->
+        <!-- Slider main container -->
+        <div class="swiper-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper slider">
+            <!-- Slides -->
+            <div class="swiper-slide slider__item">
+              <div class="slider__item-name">Наталья Г.</div>
+              <!-- /.slider__item-name -->
+              <span class="slider__item-prof">Отельер. Калуга </span>
+              <!-- /.slider__item-prof -->
+              <p class="slider__item-text">Неожиданно, появилась возможность приобрести объект недвижимости. Цена была
+                привлекательная, но как всегда, в таких случаях, время на оплату ограничено. Торги, формальные сроки,
+                договариваться не с кем... Я не большой сторонник кредитования, очень не охотно и с большими опасениями
+                вступаю в кредитные отношения. Но подход Орбанка, простой механизм и отсутствие дополнительных условий
+                для кредита помог мне и решиться и затем поймать выгодную сделку. Спасибо сотрудникам Орбанка, все
+                получилось как и договаривались.</p>
+              <!-- /.slider__item-text -->
+            </div>
+            <div class="swiper-slide slider__item">
+              <div class="slider__item-name">Сергей</div>
+              <!-- /.slider__item-name -->
+              <span class="slider__item-prof">Инвестор, Москва</span>
+              <!-- /.slider__item-prof -->
+              <p class="slider__item-text">Я традиционно верю в недвижимость. Нахожусь всегда в поиске интересных
+                инвестиционных объектов.Недвижимость должна работать, приносить доход. Особенно важно иметь возможность
+                в любой момент улучшить ликвидность, оперативно заложив объект и получить не связанную не чем
+                наличность. Сейчас все большие банки любят кредитовать процесс, им важны цели кредита и плановые
+                показатели, чтоб было потом что проверять и за что наказывать, ведь всякое может быть. Бизнес не
+                стабилен. Орбанк мне помог быстро и без декларации моих целей и задать решить текущие финансовые
+                проблемы. Спасибо Вам! коллеги!</p>
+              <!-- /.slider__item-text -->
+            </div>
+            <div class="swiper-slide slider__item">
+              <div class="slider__item-name">Александр Т.</div>
+              <!-- /.slider__item-name -->
+              <span class="slider__item-prof">Директор сети кофеен, Москва </span>
+              <!-- /.slider__item-prof -->
+              <p class="slider__item-text">Я еще никогда прежде не встречал ни в одном банке такого уровня сервиса. Всё
+                на высшем уровне! Особая благодарность Татьяне (руководителю отделения) за заботливое отношение. Она
+                просто, как наша финансовая «мама». Благодаря ей в отделении себя чувствуешь комфортно, как у себя дома.
+                Благодарность руководителю отделения.</p>
+              <!-- /.slider__item-text -->
+            </div>
+            <div class="swiper-slide slider__item">
+              <div class="slider__item-name">Артем Бондаренко</div>
+              <!-- /.slider__item-name -->
+              <span class="slider__item-prof">Директор сети ресторанов Сабвей </span>
+              <!-- /.slider__item-prof -->
+              <p class="slider__item-text">Я еще никогда прежде не встречал ни в одном банке такого уровня сервиса. Всё
+                на высшем уровне! Особая благодарность Татьяне (руководителю отделения) за заботливое отношение. Она
+                просто, как наша финансовая «мама». Благодаря ей в отделении себя чувствуешь комфортно, как у себя дома.
+                Благодарность руководителю отделения.</p>
+              <!-- /.slider__item-text -->
+            </div>
+          </div>
+          <div class="slider__button slider__button-prev">
+          </div>
+          <div class="slider__button slider__button-next">
+          </div>
+          <div class="swiper-scrollbar"></div>
+        </div>
+      </div>
+      <!-- /.container reviews__container -->
+    </section>
+    <!-- /.reviews -->
+
+    <section class="faq" id="faq">
+      <div class="container faq__container">
+        <p class="section__suptitle">Вопросы и ответы</p>
+        <!-- /.section__suptitle -->
+        <h2 class="section__title faq__title">Ответы на часто задаваемые вопросы</h2>
+        <!-- /.section__title faq__title -->
+        <div class="accordion">
+          <div class="accordion__item">
+            <div class="accordion__top">
+              <h3 class="accordion__heading">Мы партнеры 1С но не получали вашего предложения?</h3>
+              <button class="accordion__btn" type="button">
+                <span></span>
+              </button>
+            </div>
+            <div class="accordion__info">
+              Обычно мы рассматриваем заявку в течение двух минут, иногда времени требуется больше, максимальный срок
+              рассмотрения заявки – пять рабочих дней. Когда заявку рассмотрим, решение вы получите на эл. почту или мы
+              перезвоним.
+            </div>
+          </div>
+          <!-- /.accordion__item -->
+          <div class="accordion__item">
+            <div class="accordion__top">
+              <h3 class="accordion__heading">У нас стабильное финансовое положение и мы исторически не кредитуемся,
+                зачем это нам?</h3>
+              <button class="accordion__btn" type="button">
+                <span></span>
+              </button>
+            </div>
+            <div class="accordion__info">
+              Обычно мы рассматриваем заявку в течение двух минут, иногда времени требуется больше, максимальный срок
+              рассмотрения заявки – пять рабочих дней. Когда заявку рассмотрим, решение вы получите на эл. почту или мы
+              перезвоним.
+            </div>
+          </div>
+          <!-- /.accordion__item -->
+          <div class="accordion__item">
+            <div class="accordion__top">
+              <h3 class="accordion__heading">Потребуется ли залоговое обеспечение?</h3>
+              <button class="accordion__btn" type="button">
+                <span></span>
+              </button>
+            </div>
+            <div class="accordion__info">
+              Обычно мы рассматриваем заявку в течение двух минут, иногда времени требуется больше, максимальный срок
+              рассмотрения заявки – пять рабочих дней. Когда заявку рассмотрим, решение вы получите на эл. почту или мы
+              перезвоним.
+            </div>
+          </div>
+          <!-- /.accordion__item -->
+        </div>
+        <!-- /.accordion -->
+      </div>
+      <!-- /.container faq__container -->
+    </section>
+    <!-- /.faq -->
+
+    <section class="feedback section--padding" id="feedback">
+      <div class="mask"></div>
+      <div class="container feedback__container">
+        <div class="feedback__content">
+          <p class="section__suptitle">Оставить заявку</p>
+          <!-- /.section__suptitle -->
+          <h2 class="section__title feedback__title">Оставьте заявку на получение кредита</h2>
+          <!-- /.section__title feedback__title -->
+          <p class="feedback__content-text">Сделайте несколько шагов, чтобы отправить заявку. Если у Вас возникнут
+            вопросы на этапе заполнения, напишите нам, или позвоните на номер:</p>
+          <a class="feedback__content-link" href="tel:+88007070907">8 800 707 09 07</a>
+        </div>
+        <!-- /.feedback__content -->
+        <form class="form feedback__form" action="mail.php" method="POST">
+          <h3 class="form__title section__title--md">Оставить заявку на кредит</h3>
+          <!-- /.form__title -->
+          <p class="form__subtitle">Оставьте свои контактные данные, чтобы мы вам перезвонили и ответили на все Ваши
+            вопросы</p>
+          <!-- /.form__subtitle -->
+          <label class="form__label" for="company">
+            <span>Название компании</span>
+            <input class="form__input" type="text" name="company" id="company" placeholder="Введите название компании"
+              title="Введите название компании" required data-validate-field="company">
+          </label>
+          <label class="form__label" for="inn">
+            <span>ИНН компании</span>
+            <input class="form__input" type="text" name="inn" id="inn" placeholder="Введите ИНН компании"
+              title="Введите ИНН компании" pattern="[0-9]{20}" required data-validate-field="inn">
+          </label>
+          <label class="form__label" for="sum">
+            <span>Сумма кредита</span>
+            <input class="form__input" type="text" name="sum" id="sum" placeholder="30 000 000"
+              title="Введите сумму кредита" pattern="[0-9]{20}" required data-validate-field="sum">
+            <span class="form--helper">руб</span>
+          </label>
+          <label class="form__label" for="phone">
+            <span>Номер телефона</span>
+            <input class="form__input" type="tel" name="phone" id="phone" placeholder="+7 908 937 43 34"
+              title="Введите номер телефона" required data-validate-field="tel">
+          </label>
+          <div class="form__label form__label--input">
+            <img src="img/shield-green.svg" alt="Shield-green">
+            <p>Ваши данные в полной безопасности и не будут передаваться третьим лицам</p>
+          </div>
+          <div class="g-recaptcha" data-sitekey="6Lc6CaEcAAAAAMup0kN48-UTJ5AyYED5qGoUq9Mv"></div>
+          <button class="btn form__btn benefits__btn" type="submit">Оcтавить заявку</button>
+          <a class="feedback__link" href="#">Политика конфиденциальности</a>
+        </form>
+        <!-- /.form feedback__form -->
+      </div>
+      <!-- /.container feedback__container -->
+    </section>
+    <!-- /.feedback -->
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__service">
+        <p class="footer__title">Еще больше услуг банка</p>
+        <!-- /.footer__title -->
+        <div class="footer__wrap">
+          <a class="footer__item" href="https://lorem-ipsum.com">
+            <img src="img/credit-card.svg" alt="Credit Card">
+            <p>Карты</p>
+          </a>
+          <a class="footer__item" href="https://lorem-ipsum.com" target="_blank">
+            <img src="img/percent.svg" alt="Percent">
+            <p>Кредиты</p>
+          </a>
+          <a class="footer__item" href="https://lorem-ipsum.com" target="_blank">
+            <img src="img/dollar.svg" alt="Dollar">
+            <p>Депозит</p>
+          </a>
+          <a class="footer__item" href="https://lorem-ipsum.com" target="_blank">
+            <img src="img/shield-green.svg" alt="Shield">
+            <p>Страхование</p>
+          </a>
+          <a class="footer__item" href="https://lorem-ipsum.com" target="_blank">
+            <img src="img/house3.svg" alt="House">
+            <p>Система быстрых платежей</p>
+          </a>
+          <a class="footer__item" href="https://lorem-ipsum.com" target="_blank">
+            <img src="img/support.svg" alt="Support">
+            <p>Поддержка</p>
+          </a>
+
+        </div>
+        <!-- /.footer__wrap -->
+      </div>
+      <a class="footer__copy" href="aorb.ru">© aorb.ru</a>
+    </div>
+  </footer>
+
+  <div class="modal">Спасибо!<br>Ваша заявка отправлена!<br>Наш менеджер скоро с Вами свяжется!</div>
+  <div class="form--mask"></div>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/inputmask.min.js"></script>
+  <script src="js/just-validate.min.js"></script>
+  <script src="js/form.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
